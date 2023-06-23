@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const port = 8080
+const port = process.env.PORT || 8080
 
 // Team Randomizer - stores a list of team members. Pairs team members into groups of the specified sizes
 
