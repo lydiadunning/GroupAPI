@@ -1,0 +1,9 @@
+PUT http://localhost:8080/change
+content-type: application/json
+
+{
+    "toChange": "Gromph", 
+    "newName" : "Jillian"
+}
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group API</title>
+</head>
+<body>
+  <main>
+    <h1>Group API</h1>
+    <p>Divides people into groups in various ways.</p>
+    <h2>Routes</h2>
+    <p><b>/team</b> returns a full list of team members</p>
+    <p><b>/groups/{ size of group }</b> returns groupings of team memebers into the specified group size.</p>
+    <p><b>/roundrobin</b> returns sequences of users.</p>
+    <p><b>/new</b> adds a team member, provide a teamMember parameter in the request body.</p>
+    <p><b>/combine</b> adds an array of team members, send an array, teamMembers, in the request body. </p>
+    <p><b>/delete/{ team member name }</b> removes a team member from the list of team members.</p>
+  </main>
+</body>
+</html>

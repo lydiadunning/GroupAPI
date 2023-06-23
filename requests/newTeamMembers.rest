@@ -1,0 +1,16 @@
+POST http://localhost:8080/combine
+content-type: application/json
+
+{
+    "teamMembers": ["Gromph", 
+                    "Herry", 
+                    "Blort HarmFish", 
+                    "Marniella Room",
+                    "Jarm Greely",
+                    "Ullalla Esk", 
+                    "Dan", 
+                    "Ham", 
+                    "Dudially Fard"]
+}
+
+
