@@ -11,8 +11,8 @@
     <p>Divides people into groups in various ways.</p>
     <h2>Routes</h2>
     <p><b>/team</b> returns a full list of team members</p>
-    <p><b>/groups/{ size of group }</b> returns groupings of team memebers into the specified group size.</p>
-    <p><b>/roundrobin</b> returns sequences of users.</p>
+    <p><b>/groups/{ size of group }</b> returns groupings of team members into the specified group size. Uneven groupings will result in remaining team members sharing a smaller group.</p>
+    <p><b>/roundrobin</b> returns sequences of users, where each user is followed by another without conflicts.</p>
     <p><b>/new</b> adds a team member, provide a teamMember parameter in the request body.</p>
     <p><b>/combine</b> adds an array of team members, send an array, teamMembers, in the request body. </p>
     <p><b>/delete/{ team member name }</b> removes a team member from the list of team members.</p>
